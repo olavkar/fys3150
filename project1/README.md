@@ -1,3 +1,5 @@
+I didn't format this README to look good on Github, sorry :(
+  
 ### Project 1 ###
 This should explain how to run the code used in project 1 to get the same
 results.
