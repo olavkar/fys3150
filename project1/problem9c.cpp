@@ -1,5 +1,4 @@
-// Problem 7
-// Solves Av_=g_ (_ = vector) using algorithm from Problem 6
+// Problem 9c
 
 #include <iostream>
 #include <vector>
@@ -14,11 +13,8 @@ double g_func(double x, double h);
 // Main
 int main(){
   // defining vectors
-  int n = 1000-2; // number of non-end points
+  int n = 1000; // number of non-end points
   double h = 1./(n+1); // step length
-  std::vector<double> a(n, -1.); // subdiagonal
-  std::vector<double> b(n, 2.); // main diagonal
-  std::vector<double> c(n, -1.); // superdiagonal
 
   std::vector<double> x(n);
   std::vector<double> g(n);
@@ -30,17 +26,12 @@ int main(){
     g[i] = g_func(x[i], h);
   }
 
-  // forward sub
-  for (int i=1; i < n; i++){
-    g[i] = g[i] - a[i]/b[i-1]*g[i-1];
-    b[i] = b[i] - a[i]/b[i-1]*c[i-1];
+  double two_thirds = 2./3;
+  v[n-1] = two_thirds*(g[n-1] + 0.5*g[n-2]);
+  for (int i = n-2; i > 0; i--){
+    v[i] = two_thirds*(g[i] + 0.5*g[i-1] + v[i+1]);
   }
-
-  // back sub
-  v[n-1] = g[n-1]/b[n-1];
-  for (int i=n-2; i>=0; i--){
-    v[i] = (g[i] - c[i]*v[i+1])/b[i];
-  }
+  v[0] = 0.5*(g[0] + v[1]);
 
   // endpoints
   x.insert (x.begin(), 0.);
@@ -49,7 +40,7 @@ int main(){
   v.push_back(0.);
 
   // print to problem7_output.txt
-  std::string filename = "problem7_output.txt";
+  std::string filename = "problem9c_output.txt";
   std::ofstream ofile;
   ofile.open(filename);
 

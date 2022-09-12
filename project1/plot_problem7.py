@@ -1,3 +1,4 @@
+# Plots problem 7a
 import matplotlib.pyplot as plt
 
 file = open("problem7_output.txt")

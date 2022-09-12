@@ -31,8 +31,8 @@ int main(){
   std::ofstream ofile;
   ofile.open(filename);
 
-  int width = 12;
-  int prec = 4;
+  int width = 16;
+  int prec = 8;
 
   for (int i = 0; i < n; i++){
     ofile << std::setw(width) << std::setprecision(prec) << std::scientific << x[i]
