@@ -18,14 +18,18 @@
 \usepackage{xcolor}           % set colors
 \usepackage{hyperref}         % automagic cross-referencing (this is GODLIKE)
 \usepackage{listings}         % display code
-\usepackage{subfigure}        % imports a lot of cool and useful figure commands
+%\usepackage{subfigure}        % imports a lot of cool and useful figure commands
 \usepackage{float}
 %\usepackage[section]{placeins}
 \usepackage{algorithm}
 \usepackage[noend]{algpseudocode}
-\usepackage{subfigure}
+%\usepackage{subfigure}
 \usepackage{tikz}
 \usetikzlibrary{quantikz}
+\usepackage{caption}
+\usepackage{subcaption}
+\usepackage{amsmath}
+
 % defines the color of hyperref objects
 % Blending two colors:  blue!80!black  =  80% blue and 20% black
 \hypersetup{ % this is just my personal choice, feel free to change things
@@ -80,7 +84,7 @@
 
 \maketitle 
 
-\textit{List a link to your github repository here!}
+\textit{https://github.com/olavkar/fys3150/tree/main/project1}
 
 \section*{Problem 1}
 To check whether $u(x)=1-(1-e^{-10})x-e^{-100x}$ is a solution or not we insert it into the Poisson equation:
@@ -182,15 +186,16 @@ Algorithm derived in lecture on 2.09.2022.
 		\EndFor
 	\end{algorithmic}
 	\begin{algorithmic}		
-		\State $v_n=\frac{\tilde{g_n}}{b_n}$ \Comment{Back substitution}
+		\State $v_n=\frac{\tilde{g_n}}{\tilde{b_n}}$ \Comment{Back substitution}
 		\For{$i = n-1, \ldots, 1$}
 		\State $v_i=\frac{\tilde{g_i}-c_iv_{i+1}}{\tilde{b_i}}$
 		\EndFor
 	\end{algorithmic}
+	\label{alg:1}
 \end{algorithm}
 
 \subsection*{b)}
-The number of FLOPs from forward substitution is $(n-1)\cdot2\cdot3$, (3 in $\tilde{g_i}$, 3 in $\tilde{b_i}$, $n-1$ times). From back substitution there are $(n-1)\cdot3+1$, (3 in $v_i$, $(n-1)$ times, plus $v_n$). The total number of FLOPs is $(n-1)\cdot2\cdot3+(n-1)\cdot3+1=7n-6\approx7n$ for large $n$.
+The number of FLOPs from forward substitution is $(n-1)\cdot2\cdot3$, (3 in $\tilde{g_i}$, 3 in $\tilde{b_i}$, $n-1$ times). From back substitution there are $(n-1)\cdot3+1$, (3 in $v_i$, $(n-1)$ times, plus $v_n$). The total number of FLOPs is $(n-1)\cdot2\cdot3+(n-1)\cdot3+1=9n-9\approx9n$ for large $n$.
 
 \section*{Problem 7}
 \subsection*{a)}
@@ -201,5 +206,120 @@ Using the algorithm for $n=1000$ non-endpoints and plotting the results gives us
 	\caption{The function $v(x)$ from $x=0$ to $x=1$.}
 	\label{fig:2}
 \end{figure}
+
+\subsection*{b)}
+For $n_{\text{steps}}\in\{10, 100, 1000\}$ we get Fig. \ref{fig:3}. Additional figures using higher $n_{\text{steps}}$ would be indistinguishable from the current ones.
+
+\begin{figure}[h]
+	\centering
+	\begin{subfigure}[b]{0.45\textwidth}
+		\includegraphics[scale=0.5]{imgs/problem7b_output_10.pdf}	
+	\end{subfigure}
+	\begin{subfigure}[b]{0.45\textwidth}
+		\includegraphics[scale=0.5]{imgs/problem7b_output_100.pdf}	
+	\end{subfigure}	
+	\begin{subfigure}[b]{0.45\textwidth}
+		\includegraphics[scale=0.5]{imgs/problem7b_output_1000.pdf}	
+	\end{subfigure}	
+	\caption{$u(x)$ and $v(x)$ as functions of $x$ using $n_{\text{steps}}\in\{10, 100, 1000\}$} steps.
+	\label{fig:3}
+\end{figure}
+
+\section*{Problem 8}
+\subsection*{a) \& b)}
+Fig. \ref{fig:4} shows the absolute and relative errors for $n_{\text{steps}}\in\{10, 100, 1000\}$.
+
+\begin{figure}
+	\includegraphics[scale=0.9]{imgs/problem8_output.pdf}
+	\caption{$\log_{10}(|u_i-v_i|)$ and $\log_{10}(|\frac{u_i-v_i}{u_i}|)$ as functions of $x_i$. Blue corresponds to $n_{\text{steps}}=10$, orange to 100, and green to 1000 steps.}
+	\label{fig:4}
+\end{figure}
+
+\subsection*{c)}
+The maximum relative errors are given in table \ref{tab:1}. We can see that the relative error decreases as we go up to $10^5$ steps and increases again with additional steps. Fig. \ref{fig:5} shows that for $n_{\text{steps}}=10^7$ we get a shape (somewhat) similar to what was predicted during lecture 5, I believe. 
+\begin{table}
+	\centering
+	\caption{Maximum relative errors}
+	\begin{tabular}{c@{\hspace{1cm}} c}
+		\hline
+		$\log_{10}(n_{\text{steps}})$ & Maximum $\log_{10}(\epsilon_i)$ \\
+		\hline
+		1 & -1.25 \\
+		2 &  -3.10 \\
+		3 &  -5.08 \\
+		4 &  -7.08 \\
+		5 &  -8.84 \\
+		6 &  -6.08 \\
+		7 &  -5.53 \\
+		\hline
+	\end{tabular}\label{tab:1}
+\end{table}
+
+\begin{figure}
+	\includegraphics[scale=0.9]{imgs/problem8c_output.pdf}
+	\caption{Relative error for $\log_{10}(n_{\text{steps}})\in\{1,2,3,4,5,6,7\}$.}
+	\label{fig:5}
+\end{figure}
+
+\section*{Problem 9}
+\subsection*{a)}
+As all elements in $\vec{a}$, $\vec{b}$ and $\vec{c}$ are the same (-1, 2 and -1 respectively) we can insert these values into algorithm \ref{alg:1}. In the forward substitution we get 
+\begin{equation}
+	\begin{split}
+		&\tilde{g_1} = g_1 \\
+		&\tilde{b_1} = 2 \\
+		&\tilde{g_i}=g_i+\frac{1}{2}g_{i-1} \\
+		&\tilde{b_i}=2-\frac{1}{2}=\frac{3}{2}
+	\end{split}
+\end{equation}
+In the back substitution we get 
+\begin{equation}
+	\begin{split}
+		&v_n=\frac{2}{3}\tilde{g_n}=\frac{2}{3}(g_n+\frac{1}{2}g_{n-1}) \\
+		&v_i=\frac{2}{3}(\tilde{g_i}+v_{i+1})=\frac{2}{3}(g_i+\frac{1}{2}g_{i-1}+v_{i+1}) \\
+		&v_1=\frac{1}{2}(\tilde{g_1}+v_2)=\frac{1}{2}(g_1+v_2)
+	\end{split}
+\end{equation}
+where we needed to specify $v_1$ due to $\tilde{b_1}\neq\tilde{b_i}$. Written formally we get algorithm \ref{alg:2}.
+\begin{algorithm}[H]
+	\caption{Special algorithm}
+	\begin{algorithmic}
+		\State We know all elements $g_i$.
+		\State $v_n=\frac{2}{3}(g_n+\frac{1}{2}g_{n-1})$ 
+		\For{$i = n-1, \ldots, 2$}
+		\State $v_i=\frac{2}{3}(g_i+\frac{1}{2}g_{i-1}+v_{i+1})$
+		\EndFor
+		\State $v_1=\frac{1}{2}(g_1+v_2)$
+	\end{algorithmic}
+	\label{alg:2}
+\end{algorithm}
+
+\subsection*{b)}
+The number of FLOPs in the special algorithm (not counting $\frac{1}{2}$ and $\frac{2}{3}$ as they are numbers) is $3+2+(n-2)\cdot4=4n-3\approx4n$; 3 from $v_n$, 2 from $v_1$ and 4 from $v_i$ $n-2$ times. 
+
+\subsection*{c)}
+Just look at the code. It works.
+
+\section*{Problem 10}
+\textbf{Note:} General algorithm was slightly optimized by only doing the FLOP $\frac{a_i}{b_{i-1}}$ once per $i$ instead of twice, giving a total of $8n$ FLOPs instead of $9n$.
+
+The average time for each algorithm for the different $n_\text{steps}$ are listed in table \ref{tab:2}. We can see from the ratio of the times that the general algorithm is somewhere between 2 to 3 times slower than the special algorithm. The expected ratio would be to compare the number of FLOPs, which is $\frac{8n}{4n}=2$. 
+
+\begin{table}
+	\centering
+	\caption{Average times for algorithms}
+	\begin{tabular}{c c c c }
+		\hline
+		$\log_{10}(n_{\text{steps}})$ & Gen. Alg. [s] & Spc. Alg. [s] & Ratio \\
+		\hline
+		1 & $1.63\cdot10^{-6}$ & $1.17\cdot10^{-6}$ & 1.39\\
+		2 & $7.10\cdot10^{-6}$ & $3.59\cdot10^{-6}$ & 1.98\\
+		3 & $5.40\cdot10^{-5}$ & $1.98\cdot10^{-5}$ & 2.73\\
+		4 & $2.15\cdot10^{-4}$ & $1.04\cdot10^{-4}$ & 2.07\\
+		5 & $2.30\cdot10^{-3}$ & $8.99\cdot10^{-4}$ & 2.56\\
+		6 & $2.37\cdot10^{-2}$ & $1.17\cdot10^{-2}$ & 2.03\\
+		\hline
+	\end{tabular}\label{tab:2}
+\end{table}
 
 \end{document}

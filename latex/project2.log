@@ -1,9 +1,9 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.1) (preloaded format=pdflatex 2022.9.2)  10 SEP 2022 14:24
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.1) (preloaded format=pdflatex 2022.9.2)  26 SEP 2022 01:12
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**./oppgave_mal.tex
-(oppgave_mal.tex
+**./project2.tex
+(project2.tex
 LaTeX2e <2021-06-01> patch level 1
 L3 programming layer <2021-08-27>
 (/home/olav/.miktex/texmfs/install/tex/latex/revtex/revtex4-2.cls
@@ -399,29 +399,9 @@ File: listings.cfg 2020/03/24 1.8d listings configuration
 ))
 Package: listings 2020/03/24 1.8d (Carsten Heinz)
 
-(/home/olav/.miktex/texmfs/install/tex/latex/subfigure/subfigure.sty
-Package: subfigure 2002/07/30 v2.1.4 subfigure package
-\subfigtopskip=\skip56
-\subfigcapskip=\skip57
-\subfigcaptopadj=\dimen157
-\subfigbottomskip=\skip58
-\subfigcapmargin=\dimen158
-\subfiglabelskip=\skip59
-\c@subfigure=\count295
-\c@lofdepth=\count296
-\c@subtable=\count297
-\c@lotdepth=\count298
-
-****************************************
-* Local config file subfigure.cfg used *
-****************************************
-(/home/olav/.miktex/texmfs/install/tex/latex/subfigure/subfigure.cfg)
-\subfig@top=\skip60
-\subfig@bottom=\skip61
-)
 (/home/olav/.miktex/texmfs/install/tex/latex/float/float.sty
 Package: float 2001/11/08 v1.3d Float enhancements (AL)
-\c@float@type=\count299
+\c@float@type=\count295
 \float@exts=\toks27
 \float@box=\box70
 \@float@everytoks=\toks28
@@ -435,7 +415,7 @@ nment
 Package: ifthen 2020/11/24 v1.1c Standard LaTeX ifthen package (DPC)
 )
 \@float@every@algorithm=\toks29
-\c@algorithm=\count300
+\c@algorithm=\count296
 )
 (/home/olav/.miktex/texmfs/install/tex/latex/algorithmicx/algpseudocode.sty
 Package: algpseudocode 
@@ -444,16 +424,16 @@ Package: algpseudocode
 Package: algorithmicx 2005/04/27 v1.2 Algorithmicx
 
 Document Style algorithmicx 1.2 - a greatly improved `algorithmic' style
-\c@ALG@line=\count301
-\c@ALG@rem=\count302
-\c@ALG@nested=\count303
-\ALG@tlm=\skip62
-\ALG@thistlm=\skip63
-\c@ALG@Lnr=\count304
-\c@ALG@blocknr=\count305
-\c@ALG@storecount=\count306
-\c@ALG@tmpcounter=\count307
-\ALG@tmplength=\skip64
+\c@ALG@line=\count297
+\c@ALG@rem=\count298
+\c@ALG@nested=\count299
+\ALG@tlm=\skip56
+\ALG@thistlm=\skip57
+\c@ALG@Lnr=\count300
+\c@ALG@blocknr=\count301
+\c@ALG@storecount=\count302
+\c@ALG@tmpcounter=\count303
+\ALG@tmplength=\skip58
 )
 Document Style - pseudocode environments for use with the `algorithmicx' style
 ) (/home/olav/.miktex/texmfs/install/tex/latex/pgf/frontendlayer/tikz.sty
@@ -461,8 +441,8 @@ Document Style - pseudocode environments for use with the `algorithmicx' style
 (/home/olav/.miktex/texmfs/install/tex/latex/pgf/utilities/pgfrcs.sty
 (/home/olav/.miktex/texmfs/install/tex/generic/pgf/utilities/pgfutil-common.tex
 \pgfutil@everybye=\toks30
-\pgfutil@tempdima=\dimen159
-\pgfutil@tempdimb=\dimen160
+\pgfutil@tempdima=\dimen157
+\pgfutil@tempdimb=\dimen158
 
 (/home/olav/.miktex/texmfs/install/tex/generic/pgf/utilities/pgfutil-common-lis
 ts.tex))
@@ -487,26 +467,26 @@ Package: pgfsys 2021/05/15 v3.1.9a (3.1.9a)
 de.tex
 \pgfkeys@tmptoks=\toks33
 ))
-\pgf@x=\dimen161
-\pgf@y=\dimen162
-\pgf@xa=\dimen163
-\pgf@ya=\dimen164
-\pgf@xb=\dimen165
-\pgf@yb=\dimen166
-\pgf@xc=\dimen167
-\pgf@yc=\dimen168
-\pgf@xd=\dimen169
-\pgf@yd=\dimen170
+\pgf@x=\dimen159
+\pgf@y=\dimen160
+\pgf@xa=\dimen161
+\pgf@ya=\dimen162
+\pgf@xb=\dimen163
+\pgf@yb=\dimen164
+\pgf@xc=\dimen165
+\pgf@yc=\dimen166
+\pgf@xd=\dimen167
+\pgf@yd=\dimen168
 \w@pgf@writea=\write4
 \r@pgf@reada=\read2
-\c@pgf@counta=\count308
-\c@pgf@countb=\count309
-\c@pgf@countc=\count310
-\c@pgf@countd=\count311
+\c@pgf@counta=\count304
+\c@pgf@countb=\count305
+\c@pgf@countc=\count306
+\c@pgf@countd=\count307
 \t@pgf@toka=\toks34
 \t@pgf@tokb=\toks35
 \t@pgf@tokc=\toks36
-\pgf@sys@id@count=\count312
+\pgf@sys@id@count=\count308
  (/home/olav/.miktex/texmfs/install/tex/generic/pgf/systemlayer/pgf.cfg
 File: pgf.cfg 2021/05/15 v3.1.9a (3.1.9a)
 )
@@ -523,8 +503,8 @@ File: pgfsys-common-pdf.def 2021/05/15 v3.1.9a (3.1.9a)
 (/home/olav/.miktex/texmfs/install/tex/generic/pgf/systemlayer/pgfsyssoftpath.c
 ode.tex
 File: pgfsyssoftpath.code.tex 2021/05/15 v3.1.9a (3.1.9a)
-\pgfsyssoftpath@smallbuffer@items=\count313
-\pgfsyssoftpath@bigbuffer@items=\count314
+\pgfsyssoftpath@smallbuffer@items=\count309
+\pgfsyssoftpath@bigbuffer@items=\count310
 )
 (/home/olav/.miktex/texmfs/install/tex/generic/pgf/systemlayer/pgfsysprotocol.c
 ode.tex
@@ -537,8 +517,8 @@ Package: pgfcore 2021/05/15 v3.1.9a (3.1.9a)
 (/home/olav/.miktex/texmfs/install/tex/generic/pgf/math/pgfmathcalc.code.tex
 (/home/olav/.miktex/texmfs/install/tex/generic/pgf/math/pgfmathutil.code.tex)
 (/home/olav/.miktex/texmfs/install/tex/generic/pgf/math/pgfmathparser.code.tex
-\pgfmath@dimen=\dimen171
-\pgfmath@count=\count315
+\pgfmath@dimen=\dimen169
+\pgfmath@count=\count311
 \pgfmath@box=\box73
 \pgfmath@toks=\toks37
 \pgfmath@stack@operand=\toks38
@@ -563,37 +543,37 @@ ode.tex)
 (/home/olav/.miktex/texmfs/install/tex/generic/pgf/math/pgfmathfunctions.intege
 rarithmetics.code.tex)))
 (/home/olav/.miktex/texmfs/install/tex/generic/pgf/math/pgfmathfloat.code.tex
-\c@pgfmathroundto@lastzeros=\count316
+\c@pgfmathroundto@lastzeros=\count312
 )) (/home/olav/.miktex/texmfs/install/tex/generic/pgf/math/pgfint.code.tex)
 (/home/olav/.miktex/texmfs/install/tex/generic/pgf/basiclayer/pgfcorepoints.cod
 e.tex
 File: pgfcorepoints.code.tex 2021/05/15 v3.1.9a (3.1.9a)
-\pgf@picminx=\dimen172
-\pgf@picmaxx=\dimen173
-\pgf@picminy=\dimen174
-\pgf@picmaxy=\dimen175
-\pgf@pathminx=\dimen176
-\pgf@pathmaxx=\dimen177
-\pgf@pathminy=\dimen178
-\pgf@pathmaxy=\dimen179
-\pgf@xx=\dimen180
-\pgf@xy=\dimen181
-\pgf@yx=\dimen182
-\pgf@yy=\dimen183
-\pgf@zx=\dimen184
-\pgf@zy=\dimen185
+\pgf@picminx=\dimen170
+\pgf@picmaxx=\dimen171
+\pgf@picminy=\dimen172
+\pgf@picmaxy=\dimen173
+\pgf@pathminx=\dimen174
+\pgf@pathmaxx=\dimen175
+\pgf@pathminy=\dimen176
+\pgf@pathmaxy=\dimen177
+\pgf@xx=\dimen178
+\pgf@xy=\dimen179
+\pgf@yx=\dimen180
+\pgf@yy=\dimen181
+\pgf@zx=\dimen182
+\pgf@zy=\dimen183
 )
 (/home/olav/.miktex/texmfs/install/tex/generic/pgf/basiclayer/pgfcorepathconstr
 uct.code.tex
 File: pgfcorepathconstruct.code.tex 2021/05/15 v3.1.9a (3.1.9a)
-\pgf@path@lastx=\dimen186
-\pgf@path@lasty=\dimen187
+\pgf@path@lastx=\dimen184
+\pgf@path@lasty=\dimen185
 )
 (/home/olav/.miktex/texmfs/install/tex/generic/pgf/basiclayer/pgfcorepathusage.
 code.tex
 File: pgfcorepathusage.code.tex 2021/05/15 v3.1.9a (3.1.9a)
-\pgf@shorten@end@additional=\dimen188
-\pgf@shorten@start@additional=\dimen189
+\pgf@shorten@end@additional=\dimen186
+\pgf@shorten@start@additional=\dimen187
 )
 (/home/olav/.miktex/texmfs/install/tex/generic/pgf/basiclayer/pgfcorescopes.cod
 e.tex
@@ -601,19 +581,19 @@ File: pgfcorescopes.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 \pgfpic=\box74
 \pgf@hbox=\box75
 \pgf@layerbox@main=\box76
-\pgf@picture@serial@count=\count317
+\pgf@picture@serial@count=\count313
 )
 (/home/olav/.miktex/texmfs/install/tex/generic/pgf/basiclayer/pgfcoregraphicsta
 te.code.tex
 File: pgfcoregraphicstate.code.tex 2021/05/15 v3.1.9a (3.1.9a)
-\pgflinewidth=\dimen190
+\pgflinewidth=\dimen188
 )
 (/home/olav/.miktex/texmfs/install/tex/generic/pgf/basiclayer/pgfcoretransforma
 tions.code.tex
 File: pgfcoretransformations.code.tex 2021/05/15 v3.1.9a (3.1.9a)
-\pgf@pt@x=\dimen191
-\pgf@pt@y=\dimen192
-\pgf@pt@temp=\dimen193
+\pgf@pt@x=\dimen189
+\pgf@pt@y=\dimen190
+\pgf@pt@temp=\dimen191
 )
 (/home/olav/.miktex/texmfs/install/tex/generic/pgf/basiclayer/pgfcorequick.code
 .tex
@@ -630,14 +610,14 @@ File: pgfcorepathprocessing.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 (/home/olav/.miktex/texmfs/install/tex/generic/pgf/basiclayer/pgfcorearrows.cod
 e.tex
 File: pgfcorearrows.code.tex 2021/05/15 v3.1.9a (3.1.9a)
-\pgfarrowsep=\dimen194
+\pgfarrowsep=\dimen192
 )
 (/home/olav/.miktex/texmfs/install/tex/generic/pgf/basiclayer/pgfcoreshade.code
 .tex
 File: pgfcoreshade.code.tex 2021/05/15 v3.1.9a (3.1.9a)
-\pgf@max=\dimen195
-\pgf@sys@shading@range@num=\count318
-\pgf@shadingcount=\count319
+\pgf@max=\dimen193
+\pgf@sys@shading@range@num=\count314
+\pgf@shadingcount=\count315
 )
 (/home/olav/.miktex/texmfs/install/tex/generic/pgf/basiclayer/pgfcoreimage.code
 .tex
@@ -676,8 +656,8 @@ File: pgfmoduleplot.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 (/home/olav/.miktex/texmfs/install/tex/latex/pgf/compatibility/pgfcomp-version-
 0-65.sty
 Package: pgfcomp-version-0-65 2021/05/15 v3.1.9a (3.1.9a)
-\pgf@nodesepstart=\dimen196
-\pgf@nodesepend=\dimen197
+\pgf@nodesepstart=\dimen194
+\pgf@nodesepend=\dimen195
 )
 (/home/olav/.miktex/texmfs/install/tex/latex/pgf/compatibility/pgfcomp-version-
 1-18.sty
@@ -692,8 +672,8 @@ Package: pgfcomp-version-1-18 2021/05/15 v3.1.9a (3.1.9a)
 Package: pgffor 2021/05/15 v3.1.9a (3.1.9a)
 
 (/home/olav/.miktex/texmfs/install/tex/generic/pgf/math/pgfmath.code.tex)
-\pgffor@iter=\dimen198
-\pgffor@skip=\dimen199
+\pgffor@iter=\dimen196
+\pgffor@skip=\dimen197
 \pgffor@stack=\toks40
 \pgffor@toks=\toks41
 ))
@@ -704,34 +684,34 @@ Package: tikz 2021/05/15 v3.1.9a (3.1.9a)
 (/home/olav/.miktex/texmfs/install/tex/generic/pgf/libraries/pgflibraryplothand
 lers.code.tex
 File: pgflibraryplothandlers.code.tex 2021/05/15 v3.1.9a (3.1.9a)
-\pgf@plot@mark@count=\count320
-\pgfplotmarksize=\dimen256
+\pgf@plot@mark@count=\count316
+\pgfplotmarksize=\dimen198
 )
-\tikz@lastx=\dimen257
-\tikz@lasty=\dimen258
-\tikz@lastxsaved=\dimen259
-\tikz@lastysaved=\dimen260
-\tikz@lastmovetox=\dimen261
-\tikz@lastmovetoy=\dimen262
-\tikzleveldistance=\dimen263
-\tikzsiblingdistance=\dimen264
+\tikz@lastx=\dimen199
+\tikz@lasty=\dimen256
+\tikz@lastxsaved=\dimen257
+\tikz@lastysaved=\dimen258
+\tikz@lastmovetox=\dimen259
+\tikz@lastmovetoy=\dimen260
+\tikzleveldistance=\dimen261
+\tikzsiblingdistance=\dimen262
 \tikz@figbox=\box79
 \tikz@figbox@bg=\box80
 \tikz@tempbox=\box81
 \tikz@tempbox@bg=\box82
-\tikztreelevel=\count321
-\tikznumberofchildren=\count322
-\tikznumberofcurrentchild=\count323
-\tikz@fig@count=\count324
+\tikztreelevel=\count317
+\tikznumberofchildren=\count318
+\tikznumberofcurrentchild=\count319
+\tikz@fig@count=\count320
 
 (/home/olav/.miktex/texmfs/install/tex/generic/pgf/modules/pgfmodulematrix.code
 .tex
 File: pgfmodulematrix.code.tex 2021/05/15 v3.1.9a (3.1.9a)
-\pgfmatrixcurrentrow=\count325
-\pgfmatrixcurrentcolumn=\count326
-\pgf@matrix@numberofcolumns=\count327
+\pgfmatrixcurrentrow=\count321
+\pgfmatrixcurrentcolumn=\count322
+\pgf@matrix@numberofcolumns=\count323
 )
-\tikz@expandcount=\count328
+\tikz@expandcount=\count324
 
 (/home/olav/.miktex/texmfs/install/tex/generic/pgf/frontendlayer/tikz/libraries
 /tikzlibrarytopaths.code.tex
@@ -749,54 +729,54 @@ Package: xkeyval 2022/06/16 v2.9 package option processing (HA)
 \XKV@toks=\toks42
 \XKV@tempa@toks=\toks43
 )
-\XKV@depth=\count329
+\XKV@depth=\count325
 File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
 ))
-\xargs@max=\count330
+\xargs@max=\count326
 \xargs@toksa=\toks44
 \xargs@toksb=\toks45
 )
 (/home/olav/.miktex/texmfs/install/tex/latex/xstring/xstring.sty
 (/home/olav/.miktex/texmfs/install/tex/generic/xstring/xstring.tex
-\integerpart=\count331
-\decimalpart=\count332
+\integerpart=\count327
+\decimalpart=\count328
 )
 Package: xstring 2021/07/21 v1.84 String manipulations (CT)
 )
 (/home/olav/.miktex/texmfs/install/tex/latex/etoolbox/etoolbox.sty
 Package: etoolbox 2020/10/05 v2.5k e-TeX tools for LaTeX (JAW)
-\etb@tempcnta=\count333
+\etb@tempcnta=\count329
 )
 (/home/olav/.miktex/texmfs/install/tex/latex/mathtools/mathtools.sty
 Package: mathtools 2022/06/29 v1.29 mathematical typesetting tools
 
 (/home/olav/.miktex/texmfs/install/tex/latex/tools/calc.sty
 Package: calc 2017/05/25 v4.3 Infix arithmetic (KKT,FJ)
-\calc@Acount=\count334
-\calc@Bcount=\count335
-\calc@Adimen=\dimen265
-\calc@Bdimen=\dimen266
-\calc@Askip=\skip65
-\calc@Bskip=\skip66
+\calc@Acount=\count330
+\calc@Bcount=\count331
+\calc@Adimen=\dimen263
+\calc@Bdimen=\dimen264
+\calc@Askip=\skip59
+\calc@Bskip=\skip60
 LaTeX Info: Redefining \setlength on input line 80.
 LaTeX Info: Redefining \addtolength on input line 81.
-\calc@Ccount=\count336
-\calc@Cskip=\skip67
+\calc@Ccount=\count332
+\calc@Cskip=\skip61
 )
 (/home/olav/.miktex/texmfs/install/tex/latex/mathtools/mhsetup.sty
 Package: mhsetup 2021/03/18 v1.4 programming setup (MH)
 )
-\g_MT_multlinerow_int=\count337
-\l_MT_multwidth_dim=\dimen267
-\origjot=\skip68
-\l_MT_shortvdotswithinadjustabove_dim=\dimen268
-\l_MT_shortvdotswithinadjustbelow_dim=\dimen269
-\l_MT_above_intertext_sep=\dimen270
-\l_MT_below_intertext_sep=\dimen271
-\l_MT_above_shortintertext_sep=\dimen272
-\l_MT_below_shortintertext_sep=\dimen273
+\g_MT_multlinerow_int=\count333
+\l_MT_multwidth_dim=\dimen265
+\origjot=\skip62
+\l_MT_shortvdotswithinadjustabove_dim=\dimen266
+\l_MT_shortvdotswithinadjustbelow_dim=\dimen267
+\l_MT_above_intertext_sep=\dimen268
+\l_MT_below_intertext_sep=\dimen269
+\l_MT_above_shortintertext_sep=\dimen270
+\l_MT_below_shortintertext_sep=\dimen271
 \xmathstrut@box=\box83
-\xmathstrut@dim=\dimen274
+\xmathstrut@dim=\dimen272
 )
 (/home/olav/.miktex/texmfs/install/tex/latex/environ/environ.sty
 Package: environ 2014/05/04 v0.3 A new way to define environments
@@ -816,10 +796,10 @@ File: tikzlibraryquotes.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 (/home/olav/.miktex/texmfs/install/tex/generic/pgf/libraries/pgflibraryarrows.m
 eta.code.tex
 File: pgflibraryarrows.meta.code.tex 2021/05/15 v3.1.9a (3.1.9a)
-\pgfarrowinset=\dimen275
-\pgfarrowlength=\dimen276
-\pgfarrowwidth=\dimen277
-\pgfarrowlinewidth=\dimen278
+\pgfarrowinset=\dimen273
+\pgfarrowlength=\dimen274
+\pgfarrowwidth=\dimen275
+\pgfarrowlinewidth=\dimen276
 ))
 (/home/olav/.miktex/texmfs/install/tex/generic/pgf/frontendlayer/tikz/libraries
 /tikzlibrarydecorations.pathreplacing.code.tex
@@ -827,14 +807,14 @@ File: pgflibraryarrows.meta.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 /tikzlibrarydecorations.code.tex
 (/home/olav/.miktex/texmfs/install/tex/generic/pgf/modules/pgfmoduledecorations
 .code.tex
-\pgfdecoratedcompleteddistance=\dimen279
-\pgfdecoratedremainingdistance=\dimen280
-\pgfdecoratedinputsegmentcompleteddistance=\dimen281
-\pgfdecoratedinputsegmentremainingdistance=\dimen282
-\pgf@decorate@distancetomove=\dimen283
-\pgf@decorate@repeatstate=\count338
-\pgfdecorationsegmentamplitude=\dimen284
-\pgfdecorationsegmentlength=\dimen285
+\pgfdecoratedcompleteddistance=\dimen277
+\pgfdecoratedremainingdistance=\dimen278
+\pgfdecoratedinputsegmentcompleteddistance=\dimen279
+\pgfdecoratedinputsegmentremainingdistance=\dimen280
+\pgf@decorate@distancetomove=\dimen281
+\pgf@decorate@repeatstate=\count334
+\pgfdecorationsegmentamplitude=\dimen282
+\pgfdecorationsegmentlength=\dimen283
 )
 \tikz@lib@dec@box=\box84
 )
@@ -888,14 +868,14 @@ rarydecorations.markings.code.tex))
 /tikzlibraryfpu.code.tex
 (/home/olav/.miktex/texmfs/install/tex/generic/pgf/libraries/pgflibraryfpu.code
 .tex))
-\tikz@math@for@depth=\count339
-\tikz@math@dimen=\dimen286
+\tikz@math@for@depth=\count335
+\tikz@math@dimen=\dimen284
 \tikz@math@toks=\toks46
 )
-\myl=\skip69
-\myh=\skip70
-\myd=\skip71
-\c@aaa=\count340
+\myl=\skip63
+\myh=\skip64
+\myd=\skip65
+\c@aaa=\count336
 LaTeX Font Info:    Trying to load font information for U+msa on input line 142
 .
  (/home/olav/.miktex/texmfs/install/tex/latex/amsfonts/umsa.fd
@@ -907,48 +887,84 @@ LaTeX Font Info:    Trying to load font information for U+msb on input line 142
 (/home/olav/.miktex/texmfs/install/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 ))
-Package hyperref Info: Option `colorlinks' set `true' on input line 35.
+(/home/olav/.miktex/texmfs/install/tex/latex/caption/caption.sty
+Package: caption 2020/10/26 v3.5g Customizing captions (AR)
+
+(/home/olav/.miktex/texmfs/install/tex/latex/caption/caption3.sty
+Package: caption3 2020/10/21 v2.2e caption3 kernel (AR)
+\captionmargin=\dimen285
+\captionmargin@=\dimen286
+\captionwidth=\dimen287
+\caption@tempdima=\dimen288
+\caption@indent=\dimen289
+\caption@parindent=\dimen290
+\caption@hangindent=\dimen291
+Package caption Info: Unknown document class (or package),
+(caption)             standard defaults will be used.
+Package caption Info: \@makecaption = \long macro:#1#2->\par \vskip \abovecapti
+onskip \begingroup \small \rmfamily \sbox \@tempboxa {\let \\\heading@cr \@make
+@capt@title {#1}{#2}}\@ifdim {\wd \@tempboxa >\hsize }{\begingroup \samepage \f
+lushing \let \footnote \@footnotemark@gobble \@make@capt@title {#1}{#2}\par \en
+dgroup }{\global \@minipagefalse \hb@xt@ \hsize {\hfil \unhbox \@tempboxa \hfil
+ }}\endgroup \vskip \belowcaptionskip  on input line 1139.
+)
+
+Package caption Warning: Unknown document class (or package),
+(caption)                standard defaults will be used.
+See the caption package documentation for explanation.
+
+\c@caption@flags=\count337
+\c@continuedfloat=\count338
+Package caption Info: float package is loaded.
+Package caption Info: hyperref package is loaded.
+Package caption Info: listings package is loaded.
+) (/home/olav/.miktex/texmfs/install/tex/latex/caption/subcaption.sty
+Package: subcaption 2020/10/07 v1.3j Sub-captions (AR)
+\c@subfigure=\count339
+\c@subtable=\count340
+)
+Package hyperref Info: Option `colorlinks' set `true' on input line 39.
 Class revtex4-2 Info: Unrecognized LaTeX tabular. Please update this document c
-lass! (Proceeding with fingers crossed.) on input line 75.
+lass! (Proceeding with fingers crossed.) on input line 79.
 
 
 Class revtex4-2 Warning: Repair the float package.
 
-Class revtex4-2 Info: cite was not loaded (OK!) on input line 75.
-Class revtex4-2 Info: mcite was not loaded (OK!) on input line 75.
-Class revtex4-2 Info: multicol was not loaded (OK!) on input line 75.
-(oppgave_mal.aux)
-\openout1 = `oppgave_mal.aux'.
+Class revtex4-2 Info: cite was not loaded (OK!) on input line 79.
+Class revtex4-2 Info: mcite was not loaded (OK!) on input line 79.
+Class revtex4-2 Info: multicol was not loaded (OK!) on input line 79.
+(project2.aux)
+\openout1 = `project2.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 75.
-LaTeX Font Info:    ... okay on input line 75.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 75.
-LaTeX Font Info:    ... okay on input line 75.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 75.
-LaTeX Font Info:    ... okay on input line 75.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 75.
-LaTeX Font Info:    ... okay on input line 75.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 75.
-LaTeX Font Info:    ... okay on input line 75.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 75.
-LaTeX Font Info:    ... okay on input line 75.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 75.
-LaTeX Font Info:    ... okay on input line 75.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 75.
-LaTeX Font Info:    ... okay on input line 75.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 75.
-LaTeX Font Info:    ... okay on input line 75.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 79.
+LaTeX Font Info:    ... okay on input line 79.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 79.
+LaTeX Font Info:    ... okay on input line 79.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 79.
+LaTeX Font Info:    ... okay on input line 79.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 79.
+LaTeX Font Info:    ... okay on input line 79.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 79.
+LaTeX Font Info:    ... okay on input line 79.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 79.
+LaTeX Font Info:    ... okay on input line 79.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 79.
+LaTeX Font Info:    ... okay on input line 79.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 79.
+LaTeX Font Info:    ... okay on input line 79.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 79.
+LaTeX Font Info:    ... okay on input line 79.
 
 (/home/olav/.miktex/texmfs/install/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count341
-\scratchdimen=\dimen287
+\scratchdimen=\dimen292
 \scratchbox=\box87
 \nofMPsegments=\count342
 \nofMParguments=\count343
 \everyMPshowfont=\toks47
 \MPscratchCnt=\count344
-\MPscratchDim=\dimen288
+\MPscratchDim=\dimen293
 \MPnumerator=\count345
 \makeMPintoPDFobject=\count346
 \everyMPtoPDFconversion=\toks48
@@ -960,7 +976,7 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 (/home/olav/.miktex/texmfs/install/tex/latex/00miktex/epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 ))
-Package hyperref Info: Link coloring ON on input line 75.
+Package hyperref Info: Link coloring ON on input line 79.
 
 (/home/olav/.miktex/texmfs/install/tex/latex/hyperref/nameref.sty
 Package: nameref 2021-04-02 v2.47 Cross-referencing by name of section
@@ -974,81 +990,72 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
 \c@section@level=\count347
 )
-LaTeX Info: Redefining \ref on input line 75.
-LaTeX Info: Redefining \pageref on input line 75.
-LaTeX Info: Redefining \nameref on input line 75.
- (oppgave_mal.out) (oppgave_mal.out)
+LaTeX Info: Redefining \ref on input line 79.
+LaTeX Info: Redefining \pageref on input line 79.
+LaTeX Info: Redefining \nameref on input line 79.
+ (project2.out) (project2.out)
 \@outlinefile=\write5
-\openout5 = `oppgave_mal.out'.
+\openout5 = `project2.out'.
 
 \c@lstlisting=\count348
-Class revtex4-2 Info: Taking \maketitle back from hyperref on input line 75.
-\openout3 = `oppgave_malNotes.bib'.
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: End \AtBeginDocument code.
+Class revtex4-2 Info: Taking \maketitle back from hyperref on input line 79.
+\openout3 = `project2Notes.bib'.
 
-<imgs/problem2_output.pdf, id=59, 462.52798pt x 346.89601pt>
-File: imgs/problem2_output.pdf Graphic file (type pdf)
-<use imgs/problem2_output.pdf>
-Package pdftex.def Info: imgs/problem2_output.pdf  used on input line 101.
-(pdftex.def)             Requested size: 416.27133pt x 312.20352pt.
- [1{/home/olav/.miktex/texmfs/data/fonts/map/pdftex/pdftex.map}]
-Package hyperref Info: bookmark level for unknown algorithm defaults to 0 on in
-put line 170.
- [2
-pdfTeX warning (ext4): destination with the same identifier (name{figure.1}) ha
-s been already used, duplicate ignored
-<argument> ...shipout:D \box_use:N \l_shipout_box 
-                                                  \__shipout_drop_firstpage_...
-l.190 \end{algorithm}
-                      <./imgs/problem2_output.pdf>]
-<imgs/problem7_output.pdf, id=113, 462.52798pt x 346.89601pt>
-File: imgs/problem7_output.pdf Graphic file (type pdf)
-<use imgs/problem7_output.pdf>
-Package pdftex.def Info: imgs/problem7_output.pdf  used on input line 200.
-(pdftex.def)             Requested size: 416.27133pt x 312.20352pt.
+<imgs2/output_10.pdf, id=57, 462.52798pt x 346.89601pt>
+File: imgs2/output_10.pdf Graphic file (type pdf)
+<use imgs2/output_10.pdf>
+Package pdftex.def Info: imgs2/output_10.pdf  used on input line 139.
+(pdftex.def)             Requested size: 462.52684pt x 346.89516pt.
+<imgs2/output_100.pdf, id=58, 462.52798pt x 346.89601pt>
+File: imgs2/output_100.pdf Graphic file (type pdf)
+<use imgs2/output_100.pdf>
+Package pdftex.def Info: imgs2/output_100.pdf  used on input line 142.
+(pdftex.def)             Requested size: 462.52684pt x 346.89516pt.
 
-No file oppgave_mal.bbl.
-[3] [4
-pdfTeX warning (ext4): destination with the same identifier (name{figure.2}) ha
-s been already used, duplicate ignored
-<argument> ...shipout:D \box_use:N \l_shipout_box 
-                                                  \__shipout_drop_firstpage_...
-l.205 \end{document}
-                     <./imgs/problem7_output.pdf>] (oppgave_mal.aux)
-Package rerunfilecheck Info: File `oppgave_mal.out' has not changed.
-(rerunfilecheck)             Checksum: 32747ACBE24A713BB955CACFBF78371A;1150.
+
+LaTeX Warning: Float too large for page by 46.2903pt on input line 146.
+
+[1{/home/olav/.miktex/texmfs/data/fonts/map/pdftex/pdftex.map}]
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+No file project2.bbl.
+[2]
+
+LaTeX Warning: A float is stuck (cannot be placed); try class option [floatfix]
+ on input line 149.
+
+[3 <./imgs2/output_10.pdf> <./imgs2/output_100.pdf
+
+pdfTeX warning: pdflatex (file ./imgs2/output_100.pdf): PDF inclusion: multiple
+ pdfs with page group included in a single page
+>] (project2.aux)
+Package rerunfilecheck Info: File `project2.out' has not changed.
+(rerunfilecheck)             Checksum: 0834E7FF152429CEF2DE4D860365B765;1157.
  ) 
 Here is how much of TeX's memory you used:
- 28666 strings out of 480840
- 527351 string characters out of 2903748
- 876205 words of memory out of 3000000
- 45733 multiletter control sequences out of 15000+600000
- 412592 words of font info for 61 fonts, out of 8000000 for 9000
+ 29735 strings out of 480840
+ 549170 string characters out of 2903748
+ 866938 words of memory out of 3000000
+ 46817 multiletter control sequences out of 15000+600000
+ 409835 words of font info for 52 fonts, out of 8000000 for 9000
  0 hyphenation exceptions out of 8191
- 84i,17n,83p,1181b,390s stack positions out of 5000i,500n,10000p,200000b,80000s
-</home/olav/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmbsy10.pfb
-></home/olav/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmbx10.pfb><
-/home/olav/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmbx12.pfb></h
-ome/olav/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmbx9.pfb></home
-/olav/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmex10.pfb></home/o
-lav/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmmi10.pfb></home/ola
-v/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmmi5.pfb></home/olav/.
-miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmmi6.pfb></home/olav/.mik
-tex/texmfs/install/fonts/type1/public/amsfonts/cm/cmmi7.pfb></home/olav/.miktex
-/texmfs/install/fonts/type1/public/amsfonts/cm/cmmi9.pfb></home/olav/.miktex/te
-xmfs/install/fonts/type1/public/amsfonts/cm/cmr10.pfb></home/olav/.miktex/texmf
-s/install/fonts/type1/public/amsfonts/cm/cmr5.pfb></home/olav/.miktex/texmfs/in
-stall/fonts/type1/public/amsfonts/cm/cmr6.pfb></home/olav/.miktex/texmfs/instal
-l/fonts/type1/public/amsfonts/cm/cmr7.pfb></home/olav/.miktex/texmfs/install/fo
-nts/type1/public/amsfonts/cm/cmr9.pfb></home/olav/.miktex/texmfs/install/fonts/
-type1/public/amsfonts/cm/cmsy10.pfb></home/olav/.miktex/texmfs/install/fonts/ty
-pe1/public/amsfonts/cm/cmsy5.pfb></home/olav/.miktex/texmfs/install/fonts/type1
-/public/amsfonts/cm/cmsy6.pfb></home/olav/.miktex/texmfs/install/fonts/type1/pu
-blic/amsfonts/cm/cmsy7.pfb></home/olav/.miktex/texmfs/install/fonts/type1/publi
-c/amsfonts/cm/cmsy9.pfb></home/olav/.miktex/texmfs/install/fonts/type1/public/a
-msfonts/cm/cmti10.pfb>
-Output written on oppgave_mal.pdf (4 pages, 257111 bytes).
+ 84i,17n,117p,1178b,543s stack positions out of 5000i,500n,10000p,200000b,80000s
+</home/olav/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmbx12.pfb>
+</home/olav/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmbx9.pfb></h
+ome/olav/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmmi10.pfb></hom
+e/olav/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmmi9.pfb></home/o
+lav/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmr10.pfb></home/olav
+/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmr6.pfb></home/olav/.mi
+ktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmr7.pfb></home/olav/.miktex
+/texmfs/install/fonts/type1/public/amsfonts/cm/cmr9.pfb></home/olav/.miktex/tex
+mfs/install/fonts/type1/public/amsfonts/cm/cmsy10.pfb></home/olav/.miktex/texmf
+s/install/fonts/type1/public/amsfonts/cm/cmti10.pfb>
+Output written on project2.pdf (3 pages, 161710 bytes).
 PDF statistics:
- 242 PDF objects out of 1000 (max. 8388607)
- 27 named destinations out of 1000 (max. 500000)
- 127 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 217 PDF objects out of 1000 (max. 8388607)
+ 19 named destinations out of 1000 (max. 500000)
+ 119 words of extra memory for PDF output out of 10000 (max. 10000000)
 
