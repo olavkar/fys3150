@@ -32,9 +32,6 @@
 *.out
 *.app
 
-# Textfiles
-*.txt
-
 # Python
 # Byte-compiled / optimized / DLL files
 __pycache__/
@@ -165,3 +162,7 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+# My additions
+*.txt
+*.pdf
