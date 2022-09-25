@@ -4,7 +4,7 @@
 1. Compiling and linking
 To compile and link run the commands
 
-c++ problem2.cpp -llapack -o problem2
+c++ problem2.cpp -llapack -o problem2.exe
 
 Linking to lapack here was the only way to get arma::eig_sym to work. You might
 not need to link lapack, but you might get this error (copy-pasted from terminal):
@@ -17,7 +17,7 @@ problem2.cpp:(.text._ZN4arma6lapack4syevIdEEvPcS2_PiPT_S3_S5_S5_S3_S3_[_ZN4arma6
 2. Running
 To run just type the command
 
-./problem2
+./problem2.exe
 
 The elements of arma_eigen and anal_eigen will be listed side by side with the
 corresponding value in the other matrix.
@@ -26,12 +26,12 @@ corresponding value in the other matrix.
 1. Compiling and linking
 To compile and link run the commands
 
-c++ problem3.cpp -llapack -o problem3
+c++ problem3.cpp -llapack -o problem3.exe
 
 2. Running
 Run the commands
 
-./problem3
+./problem3.exe
 
 The max value and its indices will show in the terminal.
 
@@ -44,16 +44,16 @@ int N = 6;
 2. Compiling and linking
 Run the commands
 
-c++ problem4.cpp -llapack -o problem4
+c++ problem4.cpp -llapack -o problem4.exe
 
 3. Running
 Run the commands
 
-./problem4
+./problem4.exe
 
 To compare the results with problem 2, also run
 
-./problem2
+./problem2.exe
 
 Sadly for the user, the eigenvalues and eigenvectors are not sorted for ease of comparison.
 
@@ -66,12 +66,12 @@ bool random_dense_mat = false;
 2. Compiling and linking
 Run the commands
 
-c++ problem5.cpp -llapack -o problem5
+c++ problem5.cpp -llapack -o problem5.exe
 
 3. Running
 To run type the commands
 
-./problem5
+./problem5.exe
 
 ### Problem 5 b)
 1. Config
@@ -82,12 +82,12 @@ bool random_dense_mat = true;
 2. Compiling and linking
 Run the commands
 
-c++ problem5.cpp -llapack -o problem5
+c++ problem5.cpp -llapack -o problem5.exe
 
 3. Running
 To run type the commands
 
-./problem5
+./problem5.exe
 
 ### Problem 6 a)
 1. Config
@@ -96,12 +96,12 @@ Make sure n = 10 in both problem6.cpp and problem6.py
 2. Compiling and linking
 To compile and link run the commands
 
-c++ problem6.cpp -llapack -o problem6
+c++ problem6.cpp -llapack -o problem6.exe
 
 3. Running
 Run the commands
 
-./problem6
+./problem6.exe
 
 python problem6.py
 
@@ -109,4 +109,4 @@ This creates a .txt file called output_10.txt and a .pdf called output_10.pdf.
 
 ### Problem 6 b)
 1. Config
-Make sure n = 100, otherwise everything is the same as in a). 
+Make sure n = 100, otherwise everything is the same as in a).
